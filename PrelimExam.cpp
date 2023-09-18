@@ -9,7 +9,7 @@ union union_Jhunmark {
 };
 
 int main() {
-    Jhunmark info;
+    union_Jhunmark info;
 
     info.stdno = 2200987;
     cout << "Student No.: " << info.stdno << endl;
